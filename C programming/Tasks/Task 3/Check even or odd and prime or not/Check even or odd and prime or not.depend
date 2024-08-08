@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1723124489 source:e:\embedded-systems-diploma\c programming\tasks\task 3\check even or odd and prime or not\main.c
+	<stdio.h>
+	<math.h>
+
