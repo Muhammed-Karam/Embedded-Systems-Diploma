@@ -14,16 +14,18 @@ int main()
     }
     return 0;
 }
-//Explanation of the code:
+// Explanation of the code:
 /*
-Assume the memory is 1 byte per location.
-The variable number stored in two location because the size of short is 2 bytes,
-If the IDE is little endian so the value of number which is 1
-its least significant byte in binary 00000001 stored in the first location
-and the MSB 00000000 stored in the second location,
-while if the IDE is big endian so the MSB 00000000 stored in the first location
-and the LSB stored in the second location 00000001.
-When we create a pointer to char point to the first location of number
-and dereference it, the value will be 00000001 which is 1 when the IDE is little endian
-and the value will be 00000000 which is 0 when the IDE is big endian.
+Assume that memory stores 1 byte per location.
+The variable 'number' is stored in two locations because the size of 'short' is 2 bytes.
+If the system is little-endian, the value of 'number' (which is 1) 
+has its least significant byte (LSB) in binary (00000001) stored in the first location, 
+and the most significant byte (MSB) (00000000) stored in the second location.
+On the other hand, if the system is big-endian, the MSB (00000000) will be stored 
+in the first location, and the LSB (00000001) will be stored in the second location.
+We create a 'char' pointer that points to the first byte of 'number' 
+and dereference it. If the value at the first location is 00000001 (which is 1), 
+the system is little-endian. If the value is 00000000 (which is 0), 
+the system is big-endian.
 */
+
