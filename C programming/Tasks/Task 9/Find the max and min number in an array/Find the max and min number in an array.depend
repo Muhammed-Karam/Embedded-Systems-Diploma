@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1726777865 source:e:\embedded-systems-diploma\c programming\tasks\task 9\find the max and min number in an array\main.c
+	<stdio.h>
+	"max_and_min_in_array.h"
+
+1726776402 e:\embedded-systems-diploma\c programming\tasks\task 9\find the max and min number in an array\max_and_min_in_array.h
+
+1726777348 source:e:\embedded-systems-diploma\c programming\tasks\task 9\find the max and min number in an array\max_and_min_in_array.c
+
