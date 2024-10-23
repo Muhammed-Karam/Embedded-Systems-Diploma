@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Toggle LED connected to PORTD", "Toggle LED connected to PORTD\Toggle LED connected to PORTD.cproj", "{CD08666F-BCC1-49DE-9104-3D105B4A0D4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD08666F-BCC1-49DE-9104-3D105B4A0D4D}.Debug|AVR.ActiveCfg = Debug|AVR
+		{CD08666F-BCC1-49DE-9104-3D105B4A0D4D}.Debug|AVR.Build.0 = Debug|AVR
+		{CD08666F-BCC1-49DE-9104-3D105B4A0D4D}.Release|AVR.ActiveCfg = Release|AVR
+		{CD08666F-BCC1-49DE-9104-3D105B4A0D4D}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
