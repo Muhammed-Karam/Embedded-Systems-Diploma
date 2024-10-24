@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "toggle 2 leds with specific delay", "toggle 2 leds with specific delay\toggle 2 leds with specific delay.cproj", "{8FDB8064-C4D0-4915-939D-24F9953F8405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FDB8064-C4D0-4915-939D-24F9953F8405}.Debug|AVR.ActiveCfg = Debug|AVR
+		{8FDB8064-C4D0-4915-939D-24F9953F8405}.Debug|AVR.Build.0 = Debug|AVR
+		{8FDB8064-C4D0-4915-939D-24F9953F8405}.Release|AVR.ActiveCfg = Release|AVR
+		{8FDB8064-C4D0-4915-939D-24F9953F8405}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
